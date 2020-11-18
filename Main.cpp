@@ -11,7 +11,6 @@ int main()
 
 	circle.setName("circle1");
 	std::cout << "The shape is " << circle.getName() << " and it's area is " << circle.area() << std::endl;
-	circle.printType();
 	cout << "-------------------------------------------------" << std::endl;
 
 	double width = 5;

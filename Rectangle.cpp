@@ -33,3 +33,9 @@ double Rectangle::area()
 {
 	return m_width * m_lenght;
 }
+
+void Rectangle::printType() 
+{
+	Shape::printType();
+	std::cout << " I am also a rectangle :)" << std::endl;
+}

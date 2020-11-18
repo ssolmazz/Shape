@@ -1,5 +1,6 @@
 
 #include "Shape.h"
+#include <iostream>
 
 class Rectangle : public Shape
 {
@@ -14,6 +15,7 @@ public:
 	const double& getLenght() const;
 
 	double area();
+	void printType() override;
 
 private:
 	double m_width, m_lenght;
