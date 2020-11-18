@@ -32,6 +32,4 @@
 *.app
 /README.md
 /.gitignore
-/Shape.vcxproj.filters
-/Shape.vcxproj.user
-/Shape.vcxproj.user
+/

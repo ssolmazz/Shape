@@ -37,9 +37,5 @@ int main()
 	//     and it recognize self which shape it is and use thats area method in relevant class
 	// const in getter and setter
 
-
-
-
-
-
+	return 0;
 }

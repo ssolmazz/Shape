@@ -13,6 +13,8 @@ public:
 	const std::string& getName() const;
 
 	virtual double area() = 0;    // inerface method
+	virtual void PrintType();
+	
 
 private:
 	std::string m_name;
