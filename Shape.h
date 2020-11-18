@@ -13,7 +13,8 @@ public:
 	const std::string& getName() const;
 
 	virtual double area() = 0;    // inerface method
-	virtual void PrintType();
+
+	virtual void printType();     // Print type of shape
 	
 
 private:

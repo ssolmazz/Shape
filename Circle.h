@@ -1,4 +1,5 @@
 #include "Shape.h"
+#include <iostream>
 
 class Circle : public Shape
 {
@@ -11,6 +12,7 @@ public:
 	// const double getArea() const;
 
 	double area();
+	void printType() override;
 
 private:
 	double m_radius , m_area;

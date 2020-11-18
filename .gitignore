@@ -32,4 +32,5 @@
 *.app
 /README.md
 /.gitignore
-/
+/.vs
+/x64

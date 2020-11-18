@@ -22,6 +22,12 @@ double Circle::area()
 	 return m_area;
 }
 
+void Circle::printType()
+{
+	Shape::printType();
+	std::cout << " I am also a circle :)" << std::endl;
+}
+
 //const double Circle::getArea() const
 //{
 //	 return m_area;
