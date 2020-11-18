@@ -11,6 +11,7 @@ int main()
 
 	circle.setName("circle1");
 	std::cout << "The shape is " << circle.getName() << " and it's area is " << circle.area() << std::endl;
+	circle.printType();
 	cout << "-------------------------------------------------" << std::endl;
 
 	double width = 5;
@@ -19,6 +20,7 @@ int main()
 
 	rec.setName("rectangle");
 	std::cout << "The shape is " << rec.getName() << " and it's area is " << rec.area() << std::endl;
+	rec.printType();
 	cout << "-------------------------------------------------" << std::endl;
 
 	double base = 4;
@@ -27,6 +29,7 @@ int main()
 
 	triangle.setName("triangle");
 	std::cout << "The shape is " << triangle.getName() << " and it's area is " << triangle.area() << std::endl;
+	triangle.printType();
 	
 
 
