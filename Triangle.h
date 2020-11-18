@@ -1,4 +1,5 @@
 #include "Shape.h"
+#include <iostream>
 
 
 class Triangle : public Shape
@@ -13,6 +14,7 @@ public:
 	const double& getHeight() const;
 
 	double area();
+	void printType() override;
 
 private:
 	double m_base, m_height;

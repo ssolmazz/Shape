@@ -31,3 +31,9 @@ double Triangle::area()
 {
 	return 0.5 * m_base * m_height;
 }
+
+void Triangle::printType()
+{
+	Shape::printType();
+	std::cout << " I am also a triangle :)" << std::endl;
+}

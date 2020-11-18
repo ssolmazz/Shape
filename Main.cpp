@@ -27,6 +27,7 @@ int main()
 
 	triangle.setName("triangle");
 	std::cout << "The shape is " << triangle.getName() << " and it's area is " << triangle.area() << std::endl;
+	
 
 
 	// spørgsmål:
