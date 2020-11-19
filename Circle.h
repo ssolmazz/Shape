@@ -11,8 +11,8 @@ public:
 	const double getRadius() const;
 	// const double getArea() const;
 
-	double area();
-	void printType() override;
+	virtual double area();
+	virtual void printType() override;
 
 private:
 	double m_radius , m_area;

@@ -13,8 +13,8 @@ public:
 	const double& getWidth() const;
 	const double& getLenght() const;
 
-	double area();
-	void printType() override;
+	virtual double area();
+	virtual void printType() override;
 
 private:
 	double m_width, m_lenght;
