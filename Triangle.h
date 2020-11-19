@@ -18,8 +18,4 @@ public:
 
 private:
 	double m_base, m_height;
-
-
-
 };
-

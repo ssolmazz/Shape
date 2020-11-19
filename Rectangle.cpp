@@ -7,8 +7,6 @@ Rectangle::Rectangle(double& width, double& lenght) : Shape()
 	m_lenght = lenght;
 }
 
-
-
 void Rectangle::setWidth(const double& width)
 {
 	m_width = width;

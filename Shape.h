@@ -1,11 +1,9 @@
+#pragma once
 #include<string>
 
 
-
-using namespace std;
 class Shape {
 public:
-
 	Shape();    // default constructor
 	Shape(const std::string& name);    // constructor with argument
 
@@ -16,9 +14,6 @@ public:
 
 	virtual void printType();     // Print type of shape
 	
-
 private:
 	std::string m_name;
-
 };
-#pragma once

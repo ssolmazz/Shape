@@ -3,8 +3,6 @@
 #include <string>
 
 
-using namespace std;
-
 Shape::Shape()
 {
 	std::cout << " Object is  created." << std::endl;

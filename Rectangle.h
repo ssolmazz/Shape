@@ -1,11 +1,10 @@
-
 #include "Shape.h"
 #include <iostream>
+
 
 class Rectangle : public Shape
 {
 public:
-
 	Rectangle(double& width, double& lenght);
 
 	void setWidth(const double& width);
@@ -19,8 +18,5 @@ public:
 
 private:
 	double m_width, m_lenght;
-
-
-
 };
 

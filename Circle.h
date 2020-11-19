@@ -1,10 +1,10 @@
 #include "Shape.h"
 #include <iostream>
 
+
 class Circle : public Shape
 {
 public:
-	
 	Circle(double& radius);
 
 	void setRadius(const double& radius);
@@ -16,9 +16,4 @@ public:
 
 private:
 	double m_radius , m_area;
-
-	
-
-
 };
-
