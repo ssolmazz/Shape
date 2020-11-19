@@ -18,8 +18,7 @@ const double Circle::getRadius() const
 
 double Circle::area()
 {
-	 m_area = pow(m_radius, 2) * 3.14;
-	 return m_area;
+	 return pow(m_radius, 2) * 3.14;
 }
 
 void Circle::printType()

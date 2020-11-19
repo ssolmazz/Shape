@@ -15,5 +15,5 @@ public:
 	virtual void printType() override;
 
 private:
-	double m_radius , m_area;
+	double m_radius;
 };
