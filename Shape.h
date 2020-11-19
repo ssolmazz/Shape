@@ -11,9 +11,9 @@ public:
 	void setName(const std::string& name);
 	const std::string& getName() const;
 
-	virtual double area() = 0;    // inerface method
+	virtual double area() const = 0;    // inerface method
 
-	virtual void printType();     // Print type of shape
+	virtual void printType() const;     // Print type of shape
 	
 private:
 	std::string m_name;
