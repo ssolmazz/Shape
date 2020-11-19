@@ -3,7 +3,7 @@
 
 Circle::Circle(double& radius) : Shape()
 {
-m_radius = radius;
+	m_radius = radius;
 }
 
 void Circle::setRadius(const double& radius)

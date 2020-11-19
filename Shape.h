@@ -2,7 +2,8 @@
 #include<string>
 
 
-class Shape {
+class Shape
+{
 public:
 	Shape();    // default constructor
 	Shape(const std::string& name);    // constructor with argument

@@ -26,7 +26,6 @@ const std::string& Shape::getName() const
  void Shape::printType()
 {
 	std::cout << " I am a shape." << std::endl;
-
 }
 
 
