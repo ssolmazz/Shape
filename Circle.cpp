@@ -16,12 +16,12 @@ const double Circle::getRadius() const
 	return m_radius;
 }
 
-double Circle::area()
+double Circle::area() const
 {
 	 return pow(m_radius, 2) * 3.14;
 }
 
-void Circle::printType()
+void Circle::printType() const
 {
 	Shape::printType();
 	std::cout << " I am also a circle :)" << std::endl;

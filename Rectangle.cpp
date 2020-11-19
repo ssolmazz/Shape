@@ -27,12 +27,12 @@ const double& Rectangle::getLenght() const
 	return m_lenght;
 }
 
-double Rectangle::area()
+double Rectangle::area() const
 {
 	return m_width * m_lenght;
 }
 
-void Rectangle::printType() 
+void Rectangle::printType() const
 {
 	Shape::printType();
 	std::cout << " I am also a rectangle :)" << std::endl;

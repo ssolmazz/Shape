@@ -13,8 +13,8 @@ public:
 	const double& getBase() const;
 	const double& getHeight() const;
 
-	virtual double area();
-	virtual void printType() override;
+	virtual double area() const;
+	virtual void printType() const override;
 
 private:
 	double m_base, m_height;

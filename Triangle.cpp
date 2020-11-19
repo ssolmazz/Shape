@@ -27,12 +27,12 @@ const double& Triangle::getHeight() const
 	return m_height;
 }
 
-double Triangle::area()
+double Triangle::area() const
 {
 	return 0.5 * m_base * m_height;
 }
 
-void Triangle::printType()
+void Triangle::printType() const
 {
 	Shape::printType();
 	std::cout << " I am also a triangle :)" << std::endl;
